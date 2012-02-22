@@ -3,8 +3,8 @@
 \usepackage[spanish]{babel}
 \usepackage{latexsym,amsmath,amssymb,amsthm}
 \usepackage{graphicx}
-\usepackage{anysize} % paquete para manejar los margenes
-\marginsize{2.5cm}{1.5cm}{1.5cm}{1.5cm}% izq der arriba abajo
+\usepackage{anysize} 
+\marginsize{2.5cm}{1.5cm}{1.5cm}{1.5cm}
 
 %%  “”
 \begin{document}
@@ -177,14 +177,14 @@ Nos encontraremos con cuatro pestañas que veremos a continuación:
 	En esta pestaña puede anadir varios idiomas para que el teclado se comunique con nuestro sistema\\
     Pulsando el botón +, añade un idioma\\
     Pulsando el boton -, elimina un idioma
-    \begin{flushleft}
+\begin{center}
 \includegraphics[scale=0.6]{gnome/idioma1.png} 
-\end{flushleft}
+\end{center}
 	\item {\large \bf Formatos}\\
 		Esta pestaña te mostrara la forma de mostrar información que sera adecuada a tu zona para la cual elegimos.
-		\begin{flushleft}
+\begin{center}
 \includegraphics[scale=0.6]{gnome/formato.png} 
-\end{flushleft}
+\end{center}
 Podemos añadir como también eliminar regiones.\\ 
 		Cuando cambia su región para los formatos, sólo lo cambia para su cuenta después de iniciar la sesión.
 	\item {\large \bf Distribuciones}\\
@@ -198,15 +198,40 @@ Cuando se añaden varias distribuciones, puede cambiar entre ellas utilizando el
 Cuando se usan varias distribuciones, se puede elegir entre tener todas las ventanas con la misma distribución o asignar una distribución diferente a cada ventana. Este último resulta interesante, por ejemplo, si esta escribiendo un articulo en otro idioma en una ventana del procesador de textos. Cada ventana recordara su selección de teclado conforme vaya pasando de una ventana a otra.\\
 
 De manera predeterminada, las nuevas ventanas usaran la distribución de teclado predeterminada. En su lugar, puede elegir que usen la distribución de la ventana que estuviera usando antes. La distribución predeterminada es la situada al principio de la lista. Use los botones $\uparrow$ y $\downarrow$ para subir o bajar las distribuciones dentro de la lista.
-	\item Sistema
+	\item {\large \bf Sistema}\\
+	Simplemente muestra los ajustes del sistema.	
+	\begin{center}
+		\includegraphics[scale=0.6]{gnome/sistema1.png} 
+    \end{center}
 \end{itemize}
+\subsection{Pantalla}
+Puede cambiar el brillo de su pantalla para ahorrar energía o hacerla más legible en condiciones de mucha luz ambiental. También puede hacer que la pantalla se atenúe automáticamente cuando se consume batería o apagarla automáticamente cuando no se use la pantalla.\\
 
+Establecer el brillo\\
 
+Abra Pantalla.
+Mueva el deslizador de Brillo para obtener un valor confortable.\\
 
+Muchas portátiles tienen teclados con teclas especiales para ajustar el brillo. Éstas tienen una imagen que parece un sol y están ubicadas en las teclas de función en la parte superior. Mantenga pulsada la tecla Fn para usar estas teclas.\\
 
-
+Seleccione oscurecer para ahorrar energía, la pantalla se reducirá  automáticamente cuando esté usando la batería.\\
+La luz de fondo de su pantalla puede consumir mucha energía y reducir significativamente el tiempo que durará la batería hasta que tenga que volver a cargarla.\\
+La pantalla se apagará automáticamente cuando lleve un tiempo sin usarla.\\
+Esto solo afecta a la pantalla, y no apaga su equipo. Puede ajustar el tiempo que tiene que estar inactivo en la lista desplegable Apagar después de:
+\begin{center}
+\includegraphics[scale=0.6]{gnome/pantallaa1.png} 
+\end{center}
+\subsection{Soporte de idiomas}
+En esta sección aparecen los idiomas de soporte para las ventanas en orden por países por defecto esta primero España, pero puedes cambiar al país de tu preferencia con tan solo arrastrándolo hasta la posición que prefieras.
+\begin{center}
+\includegraphics[scale=0.6]{gnome/idiomas2.png} 
+\end{center}
+En formatos regionales simplemente eliges el idioma y conjuntamente a la región de tu preferencia.
+\begin{center}
+\includegraphics[scale=0.6]{gnome/idiomas3.png} 
+\end{center}
 %---------------------
-\section{Configuración de los valores de hardware}
+\section{Hardware}
 En esta sección veremos las configuraciones del hardware del escritorio Gnome, como las preferencias del teclado y del ratón, la gestión de unidades y medios extraíbles o la resolución de la pantalla.
 \subsection{Modificación de preferencias del teclado}
 Para modificar algunos valores de configuración, como las preferencias de repetición
@@ -220,15 +245,43 @@ de control $>$ Hardware $>$ Teclado
 en Ayuda.
 \item Cuando haya definido todas las opciones según sus preferencias, haga clic en Cerrar.
 \end{enumerate}
-\subsection{Configuración del ratón}
-Para modificar algunas opciones del ratón, haga clic en Ordenador $>$ Centro de control
-$>$ Hardware $>$ Ratón para abrir el cuadro de diálogo Preferencias del ratón.
-\begin{enumerate}
-\item Utilice la pestaña Botones para especificar si los botones del ratón se deben configurar para su uso con la mano izquierda. También puede establecer el retraso al hacer clic y al hacer doble clic.
-\item Para seleccionar un tema distinto para el cursor, acceda a la pestaña Cursores. En ella puede habilitar también una animación para el puntero que se active cuando pulse y suelte Control. Esta función ayuda a localizar el puntero.
-\item En la pestaña Movimiento, defina los valores de Aceleración y Sensibilidad para el puntero del ratón. También puede modificar la distancia que se debe mover un elemento con el puntero para que se interprete como una acción de arrastrar y soltar.
-\item Cuando haya definido todas las opciones según sus preferencias, haga clic en Cerrar.
-\end{enumerate}
+\subsection{Ratón y Touchpad}
+Entrando en la parte de Ratón y touchpad. \\
+Seleccionando la pestaña Ratón, veras las siguientes opciones.\\
+\begin{itemize}
+\item{\large \bf Ratón}\\
+\begin{itemize}
+\item{\bf General}\\
+Puede intercambiar el comportamiento de los botones izquierdo y derecho de su ratón o touchpad para poder estar más cómodo.\\
+Seleccione Zurdo.
+Este ajuste afectará tanto a su ratón como a su touchpad, así como a cualquier otro dispositivo apuntador.\\
+
+Al activar la opción de mostrar la posición del puntero al pulsar la tecla control.\\
+Pulsando Ctrl se visualizará una animación que aparecerá brevemente en la posición del puntero.
+\item{\bf Velocidad del puntero}\\
+Si el puntero se mueve demasiado deprisa o despacio cuando mueve el ratón, puede ajustar la sensibilidad del puntero y la aceleración para estos dispositivos.\\
+
+Ajuste los deslizadores de Aceleración y Sensibilidad hasta que el movimiento del puntero le sea cómodo.
+\item{\bf Arrastrar y soltar}\\
+Cuando se pulsa sobre algo, no es raro que su mano se mueva un poco durante el tiempo que pasa entre que pulsa el botón y lo suelta. Por esa razón, el proceso de arrastrar solo empieza si se mueve el puntero pasado un cierto umbral, para que no empiece a arrastrar accidentalmente cada vez que pulse sobre algo.\\
+
+En Arrastrar y soltar, ajuste el deslizador del Umbral a un valor que le resulte cómodo. Pruebe a mover la ventana de opciones arrastrando la barra de título para probar el valor actual.\\
+
+Este ajuste afectará tanto a su ratón como a su touchpad, así como a cualquier otro dispositivo apuntador.
+\item{\bf Tiempo de espera de la pulsación doble}\\
+La doble pulsación solo sucede cuando pulsa el botón del ratón dos veces lo bastante rápido. Si se tarda mucho en pulsar la segunda vez, obtendrá dos pulsaciones separadas, no una doble pulsación. Si tiene dificultados en pulsar el ratón tan deprisa debería incrementar el tiempo de espera.\\
+
+En Tiempo de espera de la pulsación doble, ajuste el deslizador Tiempo de espera a un valor que considere confortable. Use la cara sonriente junto al deslizador para probar su configuración. Una pulsación simple lo hará sonreír. Una pulsación doble lo hará sonreír de oreja a oreja.\\
+
+Este ajuste afectará tanto a su ratón como a su touchpad, así como a cualquier otro dispositivo apuntador.
+\end{itemize}
+\begin{center}
+\includegraphics[scale=0.6]{gnome/raton.png} 
+\end{center}
+\item{\large \bf Touchpad}\\
+
+\end{itemize}
+
 
 \subsection{Configuración de unidades y medios extraíbles}
 Se pueden utilizar una gran variedad de unidades y soportes extraíbles, incluidos dispositivos de almacenamiento, cámaras y escáneres, entre otros. La configuración de muchos de estos dispositivos se establece automáticamente durante la instalación. Para cambiar la configuración de una unidad o de otro dispositivo extraíble, haga clic en Ordenador $>$ Centro de control $>$ Hardware $>$ Unidades y soportes extraíbles.
@@ -246,21 +299,6 @@ Para especificar la resolución y la frecuencia de refresco de la pantalla, haga
 opciones.
 \section{Sistema}
 \subsection{Acceso universal}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 %%%%%  esta pertenece a otra seccion ------------
 Acceso universal es una tecnología de asistencia para dar soporte a usuarios con diversas deficiencias y necesidades especiales y para interactuar con dispositivos de asistencia comunes como:
@@ -434,8 +472,23 @@ Si el teclado en pantalla se interpone, pulse el botón teclado junto al botón 
 
 
 %---------------------------------  (Control, Alt, Supertecla o la tecla de Windows)
-
-
+	\subsection{Fecha y Hora}
+	Si la fecha y hora mostradas en la barra superior son incorrectas, o tienen el formato incorrecto, puede cambiarlas:\\
+\begin{itemize}
+\item {\large \bf Cambiar la fecha y la hora}\\
+Selecciones fecha y hora.
+Puede que necesite Desbloquear y escribir la contraseña de administrador.\\
+Ajuste la fecha y hora pulsando en las flechas para elegir el año, día, hora y minuto. Puede elegir el mes de una lista desplegable.\\
+Si quiere, puede tener su reloj actualizado automáticamente activando la Hora de red.\\
+Cuando hora de red está encendido, el equipo sincronizará periódicamente su reloj con un reloj muy preciso en Internet, de manera que no tendrá que hacerlo manualmente. Esto solo funcionará si está conectado a Internet.\\
+También puede cambiar el formato de hora, activando o desactivando el formato 24 horas.
+\item {\large \bf Cambiar su zona horaria}\\
+Pulse en su ubicación actual en el mapa, a continuación, seleccione su ciudad actual en la lista desplegable.\\
+La hora que muestra el reloj no se actualizará automáticamente cuando seleccione una ubicación diferente. La hora en la ventana se actualizará la siguiente vez que acceda a la ventana Configuración de fecha y hora. Puede querer establecer la hora manualmente.
+		\begin{center}
+			\includegraphics[scale=0.65]{gnome/fechaHora.png} 
+		\end{center}
+\end{itemize}
 \chapter{Configuración de la barra de menú}
 \chapter{Acceso a carpetas}
 Existen varios gestores de archivos en linux.

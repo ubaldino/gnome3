@@ -19,7 +19,7 @@
 
 \pagestyle{fancy}
 \lhead{\small \slshape \leftmark} \chead{} \rhead{\small \slshape \rightmark}
-\lfoot{\url{http://scesi.fcyt.umss.edu.bo}} \cfoot{\includegraphics[scale=0.022]{gnome/scesi.png}} \rfoot{\thepage/\pageref{LastPage}}
+\lfoot{\url{http://scesi.fcyt.umss.edu.bo}} \cfoot{\includegraphics[scale=0.25]{gnome/logo.png}} \rfoot{\thepage/\pageref{LastPage}}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.3pt}
 \setlength{\headsep}{0.9\headsep}
@@ -46,13 +46,13 @@
 		\Huge{\underline{\textsc{\bf Gnome}}}
 	\end{center}
 	\vfill
-	\vfill
 	\hrule
 	\vspace{0.1cm}
+	\noindent\small{\url{http://scesi.fcyt.umss.edu.bo} \hfill \url{http://www.memi.umss.edu.bo}}
 	\hrule
-	\vspace{0.2cm}
-	\noindent\small{\includegraphics[scale=0.06]{gnome/scesi.png} \hfill \includegraphics[scale=0.21]{gnome/memi.jpg}}
-%\hrule
+	\vspace{0.1cm}
+	\noindent\small{\hspace{1.35cm}\includegraphics[scale=0.06]{gnome/scesi.png} \hfill \includegraphics[scale=0.21]{gnome/memi.jpg}\hspace{0.43cm}}
+
 \end{titlepage}
 
 %\maketitle
@@ -330,9 +330,49 @@ Este ajuste afectará tanto a su ratón como a su touchpad, así como a cualquie
 \includegraphics[scale=0.6]{gnome/raton.png} 
 \end{center}
 \item{\large \bf Touchpad}\\
+Puedes pulsar, hacer dobles pulsaciones, arrastrar y desplazarse usando solo el touchpad, sin usar botones físicos aparte.\\
+Solo estará disponible si su equipo tiene uno.
+	\begin{center}
+\includegraphics[scale=0.6]{gnome/touchpap.png}
+\end{center} 
+	\begin{itemize}
+\item{\bf General}\\
+Puedes activar o desactivar el touchpad cuando estas escribiendo o el acto de golpear y arrastrar con los dedos en el touchpad.\\ 
 
+Para pulsar, pulsar dos veces y arrastrar con su touchpad seleccione Activar\\ pulsaciones del ratón con el touchpad.\\
+
+Para pulsar toque el touchpad.\\
+Para una doble pulsación, toque dos veces.\\
+Para arrastrar un elemento, toque dos veces pero no levante su dedo después del segundo toque. Arrastre el elemento a donde quiera y después levante su dedo para soltarlo.\\
+Si su touchpad es multitáctil, pulse con el botón derecho del ratón usando dos dedos a la vez. De lo contrario necesitará usar los botones del hardware para pulsar con el botón derecho del ratón. Para ver un método de pulsación derecha del ratón sin usar el segundo botón del ratón consulte la Simular una pulsación derecha del ratón.
+\item{\bf Desplazamiento}\\
+Si su touchpad soporta multi-toques puede elegir desplazamientos usando su touchpad, bien usando los bordes del touchpad o bien usando dos dedos.\\
+\begin{itemize}
+\item Seleccione Desplazamiento en el borde en Desplazamiento para hacer desplazamientos usando el borde de su touchpad.\\ Cuando está seleccionado, al arrastrar su dedo arriba y abajo por el lateral derecho de su touchpad se desplazará verticalmente.\\ Si además selecciona Activar desplazamiento horizontal, al arrastrar su dedo a izquierda y derecha por el borde inferior del touchpad se desplazará horizontalmente.
+
+\item Seleccione Desplazamiento con dos dedos en Desplazamiento para desplazarse con dos dedos.\\
+Cuando está seleccionado, el acto de golpear y arrastrar con un solo dedo funcionará como siempre, pero si arrastra dos dedos por cualquier zona del touchpad, hará un desplazamiento.\\ Si además selecciona Activar desplazamiento horizontal, podrá mover sus dedos a izquierda y derecha para desplazarse horizontalmente. Asegúrese de dejar un poco de espacio entre sus dedos. Si sus dedos están demasiado juntos, el touchpad podría creer que se trata de un único dedo grande.
 \end{itemize}
+\item{\bf Velocidad del puntero}\\
+Si el puntero se mueve demasiado deprisa o despacio cuando usa el touchpad, puede ajustar la sensibilidad del puntero y la aceleración para este dispositivo.\\
 
+Ajuste los deslizadores de Aceleración y Sensibilidad hasta que el movimiento del puntero le sea cómodo.\\
+
+La sensibilidad es la velocidad inicial del puntero al mover su ratón.\\
+Cuanto más mueva el ratón, más rápidamente se mueve el puntero con relación a su movimiento. Esto le ayuda a mover el puntero por la pantalla sin levantar la mano, mientras que le permite apuntar y pulsar de manera precisa. La aceleración controla este comportamiento.
+\end{itemize}
+\end{itemize}
+\subsection{Red}
+Entrando en la configuración de la red, encontraras dos opciones o tres si tienes adaptador de conexión inalámbrica.
+\begin{itemize}
+\item{\bf Cableada}\\
+Para configurar la mayoría de las conexiones a redes cableadas, todo lo que necesita es conectar un cable de red. El icono de red en la barra superior dará vueltas o parpadeará durante varios segundos y después cambiara al icono de un zócalo cuando esté conectado.\\
+Si esto no ocurriera, deberá asegurarse primero de que su cable de red está conectado.\\
+
+Puede habilitar o deshabilitar la conexión de red presionando el botón de activar/desativar.
+\item{\bf Inalámbrica}\\
+\item{\bf Proxy de la red}
+\end{itemize}
 
 \subsection{Configuración de unidades y medios extraíbles}
 Se pueden utilizar una gran variedad de unidades y soportes extraíbles, incluidos dispositivos de almacenamiento, cámaras y escáneres, entre otros. La configuración de muchos de estos dispositivos se establece automáticamente durante la instalación. Para cambiar la configuración de una unidad o de otro dispositivo extraíble, haga clic en Ordenador $>$ Centro de control $>$ Hardware $>$ Unidades y soportes extraíbles.

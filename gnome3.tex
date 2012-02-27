@@ -51,7 +51,7 @@
 	\noindent\small{\url{http://scesi.fcyt.umss.edu.bo} \hfill \url{http://www.memi.umss.edu.bo}}
 	\hrule
 	\vspace{0.1cm}
-	\noindent\small{\hspace{1.35cm}\includegraphics[scale=0.06]{gnome/scesi.png} \hfill \includegraphics[scale=0.21]{gnome/memi.jpg}\hspace{0.43cm}}
+	\noindent\small{\hspace{1.15cm}\includegraphics[scale=0.06]{gnome/scesi.png} \hfill \includegraphics[scale=0.23]{gnome/memi.jpg}\hspace{0.83cm}}
 
 \end{titlepage}
 
@@ -152,6 +152,9 @@ La caja de búsqueda es lo novedoso de gnome 3. Escribiendo las primeras letras 
 Por último, terminando nuestro recorrido en Gnome Shell, en la parte inferior derecha de la pantalla veremos el área de notificaciones y bandeja de mensajes, desde donde puedes contestar con el programa de mensajería instantánea.\\
 \includegraphics[scale=0.35]{gnome/Pantallazo7.png} 
 \end{itemize}
+%%
+\chapter{barra de menú}
+%%
 \chapter{Personalización}
 Se puede cambiar el aspecto y el comportamiento del escritorio Gnome para que se adapte a preferencias y necesidades personales. Algunos de los ajustes que puede querer cambiar incluyen:
 \begin{itemize}
@@ -400,9 +403,24 @@ Pulse Crear hotspot para confirmar.\\
 Se generan automáticamente un nombre de red (SSID) y una clave de seguridad. El nombre de red estará basado en el nombre de su equipo. Otros dispositivos necesitarán esta información para conectarse al hotspot que acaba de crear.
 \end{itemize}
 \subsection{Sonido}
+Para cambiar el volumen del sonido, mueva el control deslizante de volumen a la derecha o a la izquierda. Puede desactivar completamente el sonido llevando el deslizador al extremo izquierdo.\\
+
+Algunos teclados tienen teclas que le permiten controlar el volumen. Normalmente representan altavoces estilizados emitiendo ondas y frecuentemente están cerca de las teclas F en la parte superior. En los portátiles, normalmente están en las teclas F. Para usarlos mantenga pulsada la tecla Fn en su teclado.\\
+
+Por supuesto, si tiene altavoces externos, también puede cambiar el volumen con el control de volumen en los propios altavoces. Algunos auriculares tienen también un control de volumen.
+
+Ahora veremos un poco de las diferentes pestañas que hay en la opción de sonido.\\
 \begin{itemize}
 \item{\bf Efectos de sonido}\\
+Puede elegir diferentes sonidos para las alertas, establecer el volumen de alerta con independencia de su volumen de sistema, o desactivar los sonidos de alerta por completo.\\
+
+En la pestaña Efectos de sonido, seleccione un sonido de alerta. Cada sonido se reproducirá cuando pulse en él, de manera que podrá oír como suena.\\
+
+Use el deslizador de volumen en la pestaña Efectos de sonido para ajustar el volumen del sonido de alerta. Esto no afectará al volumen de la música, películas u otros archivos de sonido.\\
+Para desactivar completamente los sonidos de alerta, seleccione Silenciar en la pestaña Efectos de sonido.\\
+El equipo reproducirá un sonido de alerta simple para ciertos tipos de mensajes y eventos.
 \item{\bf Hardware}\\
+
 \item{\bf Entrada}\\
 \item{\bf Salida}\\
 \item{\bf Aplicaciones}\\
@@ -423,8 +441,6 @@ Para especificar la resolución y la frecuencia de refresco de la pantalla, haga
 opciones.
 \section{Sistema}
 \subsection{Acceso universal}
-
-%%%%%  esta pertenece a otra seccion ------------
 Acceso universal es una tecnología de asistencia para dar soporte a usuarios con diversas deficiencias y necesidades especiales y para interactuar con dispositivos de asistencia comunes como:
 \begin{itemize}
 \item Deficiencias auditivas.
@@ -443,9 +459,6 @@ una entrada válida
 \item Si el teclado se puede usar como ratón
 \item Si las combinaciones en las que se emplean Alt, ControlMayús se pueden duplicar con “teclas persistentes”
 \end{itemize}
-Para encontrar el menú de acceso universal y configurar los valores de accesibilidad, apunte el puntero del raton en actividades o simplemente pulse el boton "super" (windows) {\bf actividades $=>$ aplicaciones $=>$ panel derecho herramientas del sistema $=>$ Configuración del sistema $=>$ Acceso universal}\\
-%%
-%%%%  fata texto
 \begin{itemize}
 \item DEFICIENCIAS VISUALES.
 \begin{itemize}
@@ -613,8 +626,8 @@ La hora que muestra el reloj no se actualizará automáticamente cuando seleccio
 			\includegraphics[scale=0.65]{gnome/fechaHora.png} 
 		\end{center}
 \end{itemize}
-\chapter{Configuración de la barra de menú}
 \chapter{Acceso a carpetas}
+\includegraphics[scale=0.6]{gnome-3-nautilus.jpg}
 Existen varios gestores de archivos en linux.
 Nautilus, es el gestor gráfico de archivos de Gnome, muy fácil de usar.
 \begin{itemize}
@@ -622,8 +635,61 @@ Nautilus, es el gestor gráfico de archivos de Gnome, muy fácil de usar.
 \item Incorpora una barra de herramientas novedosa e información inteligente de estado.
 \item Puede conectarse a un servidor de archivos.
 \end{itemize}
+A continuación veremos las diferentes tareas de nautilus:
+\section{Tareas comunes}
+\subsubsection{Examinar archivos y carpetas}
+Use la aplicación Archivos para navegar y organizar los archivos en su equipo. También puede usarlo para gestionar archivos en dispositivos de almacenamiento (como discos externos), en servidores de archivos y en recursos compartidos de la red.\\
+Para abrir el gestor de archivos, entras en actividades. escribes nautilus y enter si te sale el gestor de archivos.\\
+Para pulse acceder a cualquier carpeta pulsa dos veces sobre una carpeta para ver su contenido, o sobre un archivo para abrirlo con la aplicación predeterminada para ese archivo. También puede pulsar con el botón derecho sobre una carpeta para abrirla en una pestaña o una ventana nueva.\\ 
+En la vista de lista, también puede pulsar en el extensor situado junto a la carpeta para mostrar su contenido en forma de árbol.\\
+Al examinar los archivos en una carpeta puede previsualizar rápidamente cada archivo rápidamente pulsando la barra espaciadora para asegurarse de que tiene el archivo correcto antes de abrirlo, copiarlo o eliminarlo.\\
+La barra de rutas situada encima de la lista de archivos y carpetas muestra qué carpeta esta visualizando, incluyendo sus carpetas padre hasta su carpeta personal. Pulse en una carpeta padre de la barra de rutas para moverse a esa carpeta. Pulse con el botón derecho sobre cualquier carpeta de la barra de rutas para abrirla en una pestaña o ventana nueva, copiarla, moverla o acceder a sus propiedades.\\
+Si quieres saltar rápidamente a un archivo en la carpeta que está viendo, empiece a escribir su nombre. Aparecerá una caja de búsqueda en la parte inferior de la ventana y se resaltará el primer archivo que coincida con su búsqueda. Pulse la flecha abajo , Ctrl+G o desplácese con el ratón para saltar al siguiente archivo que coincida con su búsqueda.\\
+Puede acceder rápidamente a lugares comunes desde la barra lateral. Si no ve la barra lateral, pulse en Ver $>$ Barra lateral $>$ Mostrar barra lateral. Puede añadir marcadores a carpetas que use con frecuencia y aparecerán en la barra lateral. Use el menú Marcadores para hacer esto, o simplemente arrastre una carpeta a la barra lateral.\\
+Si mueve frecuentemente archivos entre carpetas anidadas, puede encontrar útil mostrar un árbol en la barra lateral. Pulse Ver $>$ Barra lateral $>$ Árbol, para activar el árbol de la barra lateral. Pulse el expansor junto a la carpeta para mostrar sus carpetas hijas en el árbol, o pulse en una carpeta para abrirla en la ventana.
+\subsubsection{Buscar archivos}
+Puede buscar archivos según su nombre o su tipo de archivo directamente desde el gestor de archivos. También puede guardar búsquedas frecuentes, que aparecerán como carpetas especiales dentro de su carpeta personal.\\
+{\large \bf Buscar}
+\begin{enumerate}
+\item Abra la aplicación Archivos desde la vista de Actividades.
+\item Si sabe que los archivos que quiere buscar están en una carpeta determinada, vaya a esa carpeta.
+\item Pulse Buscar en la barra de herramientas, o pulse Ctrl+F.
+\item Teclee una o varias palabras que sepa que aparecen en el nombre del archivo y pulse Intro. Por ejemplo, si todas sus facturas contienen en su nombre la palabra Factura, teclee factura. Pulse Intro No hace falta tener en cuenta las mayúsculas y minúsculas.
+\item Puede acotar los resultados por ubicación y tipo de archivo. Pulse el botón + para establecer más criterios de búsqueda.
+\begin{itemize}
+\item Para acotar los resultados de la búsqueda, seleccione Ubicación de la lista desplegaba para añadir una ubicación padre.
+\item Para acotar los resultados de la búsqueda en función del tipo de archivo, seleccione Tipo de archivo de la lista desplegable.
+Pulse el botón - junto a cualquier opción de búsqueda para quitar esa opción y aumentar los resultados de búsqueda.
+\end{itemize}
+\item Puede abrir, copiar, eliminar o trabajar con sus archivos desde los resultados de búsqueda, igual como si estuviera en cualquier carpeta en el gestor de archivos.
+\item Pulse de nuevo Buscar en la barra de herramientas para salir de la búsqueda y volver a la carpeta.
+\end{enumerate}
+Si lleva a cabo ciertas búsquedas muy a menudo, puede guardarlas para acceder a ellas rápidamente.
+{\large \bf Guardar una búsqueda}
+\begin{enumerate}
+\item Iniciar una búsqueda como la de arriba.
+\item Cuando esté satisfecho con sus parámetros de búsqueda, pulse Archivo $>$ Guardar búsqueda como.
+\item Asigne un nombre a la búsqueda y pulse Guardar. Si lo desea, seleccione una carpeta distinta en la que guardarla. Cuando visualice esa carpeta, verá sus búsquedas guardadas como un icono de carpeta color naranja con una lupa.
+\end{enumerate}
+Para eliminar el archivo buscado cuando haya terminado con él, simplemente elimínelo de la búsqueda igual que haría con cualquier otro archivo. Cuando elimina una búsqueda guardada, no elimina los archivos que coincidieron con la búsqueda.
 
-\includegraphics[scale=0.6]{gnome-3-nautilus.jpg} 
+\subsubsection{Copiar o mover archivos y carpetas}
+\subsubsection{Eliminar archivos y carpetas}
+\subsubsection{Ordenar archivos y carpetas}
+\subsubsection{Previsualizar archivos y carpetas}
+\subsubsection{Renombrar un archivo o una carpeta}
+\section{Otros temas}
+\subsubsection{Abrir archivos con otras aplicaciones}
+\subsubsection{Compartir y transferir archivos}
+\subsubsection{Encontrar un archivo perdido}
+\subsubsection{Escribir archivo en un CD o DVD}
+\subsubsection{Examinar archivos en un servidor o comparticn de red}%%%%%tilde
+\subsubsection{Propiedades del archivo}
+\subsubsection{Recuperar un archivo eliminado}
+\subsubsection{Preferencias del gestor de archivos}
+
+
+ 
 \chapter{Uso de application launcher}
 En este capitulo aprenderemos la forma mas rápida de iniciar aplicaciones\\
 

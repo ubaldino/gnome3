@@ -16,6 +16,8 @@
 \usepackage{anyfontsize}
 \usepackage{tocbibind}
 \usepackage{multicol}
+\usepackage{wrapfig} %Figuras al lado de texto
+\usepackage[rflt]{floatflt} %Figuras flotantes entre el texto	
 %%%% “”\slshape 
 
 \pagestyle{fancy}
@@ -117,11 +119,11 @@ Cuando haya terminado de usar el equipo, puede salir de la sesión y dejar el si
 \end{enumerate}
 %------------------------------------------------------
 \part{GNOME}
-%\input{gnomeShell}
-%\input{barraDeMenu}
-%\input{launcher}
-\input{carpetas}
-%\input{personalizacion}
+\include{gnomeShell}
+\include{barraDeMenu}
+\include{launcher}
+\include{carpetas}
+\include{personalizacion}
 
 \begin{thebibliography}{5}
 \bibitem{GNOME} GNOME Web-Site: \url{http://library.gnome.org/}
